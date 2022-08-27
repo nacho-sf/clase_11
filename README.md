@@ -41,12 +41,16 @@ INICIALIZAR UN PROYECTO EN NODE
 
 -Se abre la terminal y se escribe "npm init" para inicializar un proyecto con Node.
 
--Esto crea un objeto package.json con datos a introducir, relativos al proyecto.
+-Con esto se crea el archivo "packaje.json" e irá apareciendo la configuración para introducir (nombre, versión, descripción, main-> punto de entrada al proyecto (ej: app.js)...)
 
--Crear en Visual Code el archivo app.js y pegar el código "Hello world" (https://expressjs.com/es/starter/hello-world.html#:~:text=En%20primer%20lugar%2C%20cree%20un,en%20la%20gu%C3%ADa%20de%20instalaci%C3%B3n.&text=La%20aplicaci%C3%B3n%20inicia%20un%20servidor,conexiones%20en%20el%20puerto%203000.). Hacer las modificaciones pertinentes.
+-URL Cheasheet npm --> Para ver comandos de npm
 
--Instalar el módulo Express. Terminal "npm i express". Se crea automáticamente el archivo package-lock.json y la carpeta node_modules.
+-URL de documentación de Express (https://expressjs.com/es/starter/hello-world.html). Crear en Visual Code el archivo "app.js" y pegar en él el código Hello World de ejemplo(https://expressjs.com/es/starter/hello-world.html#:~:text=En%20primer%20lugar%2C%20cree%20un,en%20la%20gu%C3%ADa%20de%20instalaci%C3%B3n.&text=La%20aplicaci%C3%B3n%20inicia%20un%20servidor,conexiones%20en%20el%20puerto%203000.). Hacer las modificaciones pertinentes.
 
--Lanzar el servidor. Terminal "node app.js". En el navegador se podrá ver si funciona el servidor escribiendo "http://localhost:3000"
+-Instalar el módulo Express. Terminal "npm i express". Se crea automáticamente el archivo package-lock.json y la carpeta node_modules, que son las librerias que usa express para funcionar.
+
+-Lanzar el servidor. Terminal "node app.js". Si no funciona, puede que haya que cambiar el puerto. En el navegador se podrá ver si funciona el servidor escribiendo "http://localhost:3000"
+
+-Para apagar el servidor pulsar "ctrl C"
 
 -Ver el documento para más información...
