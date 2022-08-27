@@ -1,0 +1,22 @@
+{
+  "name": "nacho_server",
+  "version": "1.0.0",
+  "description": "Servidor de pruebas bootcamp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nacho-sf/back_clase_11.git"
+  },
+  "author": "Nacho Serrano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nacho-sf/back_clase_11/issues"
+  },
+  "homepage": "https://github.com/nacho-sf/back_clase_11#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
