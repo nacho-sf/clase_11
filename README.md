@@ -41,9 +41,9 @@ INICIALIZAR UN PROYECTO EN NODE
 
 -Se abre la terminal y se escribe "npm init" para inicializar un proyecto con Node.
 
--Crea un objeto package.json con datos a introducir, relativos al proyecto.
+-Esto crea un objeto package.json con datos a introducir, relativos al proyecto.
 
--Crear en Visual Code el archivo app.js y pegar el código "Hello world" (expressjs.com/como_empezar/hello_world)
+-Crear en Visual Code el archivo app.js y pegar el código "Hello world" (https://expressjs.com/es/starter/hello-world.html#:~:text=En%20primer%20lugar%2C%20cree%20un,en%20la%20gu%C3%ADa%20de%20instalaci%C3%B3n.&text=La%20aplicaci%C3%B3n%20inicia%20un%20servidor,conexiones%20en%20el%20puerto%203000.). Hacer las modificaciones pertinentes.
 
 -Instalar el módulo Express. Terminal "npm i express". Se crea automáticamente el archivo package-lock.json y la carpeta node_modules.
 
